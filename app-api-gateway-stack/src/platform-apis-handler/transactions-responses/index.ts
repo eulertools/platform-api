@@ -1,0 +1,246 @@
+export const transactionsResponse = {
+  records: [
+    {
+      blockchainId: "1c9c969065fcd1cf",
+      blockNumber: "13665983",
+      blockHash:
+        "0x73e38f34a5441270e0c3067e22ba7b45f03658b4185847768931655a632634bf",
+      confirmations: "0",
+      contractAddress: "null",
+      cumulativeGasUsed: "21000",
+      fee: "3168807372759000",
+      from: [
+        {
+          address: "0x4d846da8257bb0ebd164eff513dff0f0c2c3c0ba",
+        },
+      ],
+      gasLimit: "50000",
+      gasPrice: "150895589179",
+      gasUsed: "21000",
+      hash: "0x5f43bc936ed34bdb8a3fa135d2655798bc76d3afa919dcffa7a48bc081f099b6",
+      index: 0,
+      input: "0x",
+      logsBloom:
+        "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      maxFeePerGas: null,
+      maxPriorityFeePerGas: null,
+      nonce: "211839",
+      publicKey: "",
+      r: "0x24550a1065fe5138b57468c25e572da54da1242ef6f0177c674e2a9b5a33055e",
+      raw: "",
+      root: "",
+      s: "0xb35a7a2302373be3d77b68513634dac6ec9e5e925553a90a9f2787a1d416956",
+      status: "0x1",
+      timestamp: "2021-11-22T18:08:28.000Z",
+      to: [
+        {
+          address: "0xb260282a9357e6b831598c7b97a95bb008c59254",
+        },
+      ],
+      type: 0,
+      v: "38",
+      value: "2706657959154295",
+      statusResult: {
+        code: "0x1",
+        confirmed: true,
+        success: true,
+        name: "successful",
+      },
+      price: {
+        value: {
+          currency: "usd",
+          quote: "4211.21593913",
+          total: "11.39832114",
+        },
+      },
+    },
+  ],
+};
+
+export const transactionsHashResponse = {
+  blockNumber: "7984429",
+  confirmations: "1",
+  contractAddress: "null",
+  cumulativeGasUsed: "21000",
+  fee: "861000000000000",
+  from: {
+    address: "0xdb725da5de68db403de513936050da2a4a743185",
+  },
+  gasLimit: "21000",
+  gasPrice: "41000000000",
+  gasUsed: "21000",
+  hash: "0xd0a5a0912fdf87993b3cebd696f1ee667a8fbbe8fc890a22dcbdf114f36de4cf",
+  index: 0,
+  input: "0x",
+  logsBloom: "0x0000...",
+  maxFeePerGas: 1000000028,
+  maxPriorityFeePerGas: 1000000000,
+  nonce: "2337",
+  publicKey: "",
+  r: "0xbe443c97cdb4f923d9557bd84b538da10ad171b2748c5670f165e9beba8b0bdd",
+  raw: "",
+  root: "",
+  s: "0x656cae3d42798a3460917cfbab6a3cf28b1776373ad2107560dc9eb77bb4ac5e",
+  status: "0x1",
+  timestamp: "2019-06-18T20:23:14.000Z",
+  to: [
+    {
+      address: "0x4929d4a08be7d47081b56a7cd020ba34a629895b",
+    },
+  ],
+  type: 2,
+  v: "27",
+  value: "4000000000000000",
+  statusResult: {
+    code: "0x1",
+    confirmed: true,
+    success: true,
+    name: "successful",
+  },
+};
+
+export const transactionsGasPercentilesResponse = {
+  percentile_000: 0,
+  percentile_001: 0,
+  percentile_002: 0,
+  percentile_003: 120000000,
+  percentile_004: 194000000,
+  percentile_005: 215833258.75,
+  percentile_010: 500000000,
+  percentile_015: 760750000,
+  percentile_020: 1000000000,
+  percentile_025: 1000000000,
+  percentile_030: 1000000000,
+  percentile_035: 1000000000,
+  percentile_040: 1000000000,
+  percentile_045: 1000000000,
+  percentile_050: 1000000000,
+  percentile_055: 1000000001,
+  percentile_060: 2000000000,
+  percentile_065: 2000000000,
+  percentile_070: 2000000000,
+  percentile_075: 2000000000,
+  percentile_080: 2000000000,
+  percentile_085: 3000000000,
+  percentile_090: 3000000000,
+  percentile_095: 5125000001.75,
+  percentile_096: 10000000000,
+  percentile_097: 10000000000,
+  percentile_098: 20000000000,
+  percentile_099: 20000000000,
+  percentile_100: 20000000000,
+};
+
+export const transactionsGasPredictionsResponse = {
+  average: {
+    gasPrice: 2000000000,
+    numBlocks: 4,
+    wait: 0.8,
+  },
+  fast: {
+    gasPrice: 3000000000,
+    numBlocks: 3,
+    wait: 0.5,
+  },
+  fastest: {
+    gasPrice: 20000000000,
+    numBlocks: 2,
+    wait: 0.4,
+  },
+  safeLow: {
+    gasPrice: 1000000000,
+    numBlocks: 26,
+    wait: 5.7,
+  },
+};
+
+export const transactionsMetricsLatestResponse = {
+  timestamp: "2020-03-30T22:42:38.000Z",
+  feesAverage: "628993184124405.1129",
+  feesAverageUSD: "0.08450460529392970212339",
+  feesTotal: "452106462898571658260",
+  feesTotalUSD: "60740.0511839602037209467",
+  feesUnit: "wei",
+  transactionsTotal: "718778",
+  valueAverage: "2272008809311800328",
+  valueAverageUSD: "305.2421115222310585047",
+  valueTotal: "1633069947939517216169913",
+  valueTotalUSD: "219401314.435726198452384",
+  valueUnit: "wei",
+  functionsTotal: "2040068",
+  gasPriceAverage: "14525559370.27676717",
+  inputsAverage: "2.4412388182636623",
+  inputsTotal: "764679",
+  outputsAverage: "2.6515703914645281",
+  outputsTotal: "830562",
+};
+
+export const transactionsMetricsHistoricalResponse = {
+  records: [
+    {
+      timestamp: "2020-04-23T08:00:00.000Z",
+      feesAverage: "844121004071498.4056",
+      feesAverageUSD: "0.151889023170115245149375",
+      feesTotal: "31960953577159144131",
+      feesTotalUSD: "5750.97408429007349149375",
+      functionsTotal: "84574",
+      gasPriceAverage: "15696739460.78276946",
+      transactionsTotal: "37863",
+      valueAverage: "1601035531190042501",
+      valueAverageUSD: "288.08633089350827234375",
+      valueTotal: "60620008317448579233609",
+      valueTotalUSD: "10907812.7466209036838125",
+    },
+    {
+      timestamp: "2020-04-23T08:00:00.000Z",
+      feesAverage: "9210.8852016628984027",
+      feesAverageUSD: "0.650848977601922",
+      feesTotal: "126290447",
+      feesTotalUSD: "8923.79033189995",
+      inputsAverage: "3.4914302384946393",
+      inputsTotal: "47871",
+      outputsAverage: "2.5359200641820436",
+      outputsTotal: "34770",
+      transactionsTotal: "13711",
+      valueAverage: "293836458.02822551",
+      valueAverageUSD: "20762.7338852637",
+      valueTotal: "4028791676025",
+      valueTotalUSD: "284677844.300851",
+    },
+  ],
+  totalRecords: 744,
+};
+
+export const transactionsVolumeResponse = {
+  data: [
+    [1550757600000, 24759],
+    [1550761200000, 21169],
+    [1550764800000, 21561],
+    [1550768400000, 21196],
+    [1550772000000, 21914],
+  ],
+  metadata: {
+    columns: ["timestamp", "numTransactions"],
+    endDate: 1550772000000,
+    startDate: 1550757600000,
+  },
+};
+
+export const transactionsTokenTransferResponse = [
+  {
+    amount: "2162000000000000000000",
+    from: "0x8424a963a31b51c33627e52e7e19bbc86c7dcb79",
+    logIndex: 39,
+    to: "0xc12edafbf7bdce4e8897b1c8877398a946db96b2",
+    tokenAddress: "0x514910771af9ca656af840dff83e8264ecf986ca",
+    decimals: "18",
+    name: "ChainLink Token",
+    symbol: "LINK",
+    isERC20: true,
+    isERC721: false,
+    isERC777: false,
+    isERC884: false,
+    isERC998: false,
+  },
+  null,
+];

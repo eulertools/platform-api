@@ -1,0 +1,10 @@
+node_modules
+!lambda/*.js
+*.js
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Generated AWS internals
+cdk.context.json
